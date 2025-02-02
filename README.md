@@ -1,7 +1,8 @@
 # Projects
-### 01-hello-kotlin
-### 02-ui-and-activity-transitions
-## 📌 Git Commit Message 규칙
+✅ 01-hello-kotlin
+✅ 02-ui-and-activity-transitions
+
+# Git Commit Message 규칙
 | 타입       | 설명                                       |
 |-----------|--------------------------------------------|
 | **feat**   | 새로운 기능 추가                          |
