@@ -13,6 +13,10 @@
         android:theme="@style/Theme.Uiandactivitytransitions"
         tools:targetApi="31">
         <activity
+            android:name=".Bts1Activity"
+            android:exported="false"
+            android:theme="@style/Theme.Uiandactivitytransitions" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
