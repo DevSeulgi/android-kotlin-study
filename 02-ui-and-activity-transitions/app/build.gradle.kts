@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "com.dino.ui_and_activity_transitions"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.dino.ui_and_activity_transitions"
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
