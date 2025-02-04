@@ -19,6 +19,7 @@
             android:layout_margin="4dp">
 
             <ImageView
+                android:id="@+id/member1"
                 android:scaleType="centerCrop"
                 android:src="@drawable/member_1"
                 android:layout_width="120dp"
@@ -32,6 +33,7 @@
             android:layout_margin="4dp">
 
             <ImageView
+                android:id="@+id/member2"
                 android:scaleType="centerCrop"
                 android:src="@drawable/member_2"
                 android:layout_width="120dp"
@@ -45,6 +47,7 @@
             android:layout_margin="4dp">
 
             <ImageView
+                android:id="@+id/member3"
                 android:scaleType="centerCrop"
                 android:src="@drawable/member_3"
                 android:layout_width="120dp"
@@ -63,6 +66,7 @@
             android:layout_margin="4dp">
 
             <ImageView
+                android:id="@+id/member4"
                 android:scaleType="centerCrop"
                 android:src="@drawable/member_4"
                 android:layout_width="120dp"
@@ -76,6 +80,7 @@
             android:layout_margin="4dp">
 
             <ImageView
+                android:id="@+id/member5"
                 android:scaleType="centerCrop"
                 android:src="@drawable/member_5"
                 android:layout_width="120dp"
@@ -89,6 +94,7 @@
             android:layout_margin="4dp">
 
             <ImageView
+                android:id="@+id/member6"
                 android:scaleType="centerCrop"
                 android:src="@drawable/member_6"
                 android:layout_width="120dp"
@@ -107,6 +113,7 @@
             android:layout_margin="4dp">
 
             <ImageView
+                android:id="@+id/member7"
                 android:scaleType="centerCrop"
                 android:src="@drawable/member_7"
                 android:layout_width="120dp"
@@ -120,6 +127,7 @@
             android:layout_margin="4dp">
 
             <ImageView
+                android:id="@+id/member8"
                 android:scaleType="centerCrop"
                 android:src="@drawable/member_8"
                 android:layout_width="120dp"
@@ -133,6 +141,7 @@
             android:layout_margin="4dp">
 
             <ImageView
+                android:id="@+id/member9"
                 android:scaleType="centerCrop"
                 android:src="@drawable/member_9"
                 android:layout_width="120dp"
