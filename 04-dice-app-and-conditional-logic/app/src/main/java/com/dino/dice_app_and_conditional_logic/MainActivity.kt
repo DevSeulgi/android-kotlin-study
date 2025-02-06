@@ -13,7 +13,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        // 1번 방식 - findViewById
         val btn = findViewById<Button>(R.id.testBtnId)
+        btn.setOnClickListener {
+            Toast.makeText(this,"click",Toast.LENGTH_LONG).show()
+        }
+
+        //
 
     }
 }

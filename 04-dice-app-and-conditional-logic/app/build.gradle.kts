@@ -33,6 +33,10 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
+    // ✅ 최신 방식으로 dataBinding 설정
+    buildFeatures {
+        dataBinding = true
+    }
 }
 
 dependencies {
