@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+    id("org.jetbrains.kotlin.kapt")
 }
 
 android {
@@ -26,16 +27,15 @@ android {
             )
         }
     }
+    buildFeatures {
+        dataBinding = true // Data Binding을 사용하려면 반드시 추가
+    }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
     }
     kotlinOptions {
         jvmTarget = "11"
-    }
-    // ✅ 최신 방식으로 dataBinding 설정
-    buildFeatures {
-        dataBinding = true
     }
 }
 
